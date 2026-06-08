@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plan para tus Próximos Meses – ByCarmenR</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --gold:#A8896A; --gold-light:#C4A882; --gold-dark:#8A6E52; --cream:#F7F4F0; --cream-dark:#EDE8E1; --text:#8A7A6A; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--cream); font-family:'Montserrat',sans-serif; font-weight:300; min-height:100vh; }
+  .gold-bar { width:18px; background:var(--gold); position:fixed; top:0; left:0; height:100%; z-index:10; }
+  .content { margin-left:18px; padding:60px 52px 80px 52px; max-width:780px; }
+  .main-title { font-family:'Cormorant Garamond',serif; font-size:28px; font-weight:500; color:var(--gold); text-align:center; letter-spacing:2px; text-transform:uppercase; margin-bottom:10px; }
+  .divider { border:none; border-top:0.5px solid var(--gold-light); margin:10px 0 32px; opacity:0.6; }
+  .month { margin-bottom:32px; }
+  .month-title { font-family:'Cormorant Garamond',serif; font-size:16px; font-weight:600; color:var(--gold); letter-spacing:1px; margin-bottom:6px; }
+  .month-divider { border:none; border-top:0.3px solid var(--gold-light); width:75%; margin-bottom:16px; opacity:0.7; }
+  .item { display:flex; align-items:flex-start; gap:10px; margin-bottom:10px; }
+  .check { color:var(--gold); font-size:14px; margin-top:1px; flex-shrink:0; }
+  .item-text { font-size:14px; color:var(--text); line-height:1.8; }
+  .sub-list { list-style:none; padding-left:24px; margin-top:6px; }
+  .sub-list li { font-size:13px; color:var(--text); line-height:1.9; }
+  .sub-list li::before { content:"–"; color:var(--gold); margin-right:8px; }
+  .nota-box { background:var(--cream-dark); border:0.8px solid var(--gold); border-radius:4px; padding:16px 20px; margin-top:16px; }
+  .nota-box p { font-family:'Cormorant Garamond',serif; font-size:15px; font-style:italic; font-weight:600; color:var(--gold-dark); line-height:1.7; }
+  @media (max-width:600px) { .content { padding:40px 24px 60px 24px; } }
+</style>
+</head>
+<body>
+<div class="gold-bar"></div>
+<div class="content">
 
+  <div class="main-title">Plan para tus Próximos Meses</div>
+  <hr class="divider">
+
+  <!-- MES 1 -->
+  <div class="month">
+    <div class="month-title">MES 1 – ORDENAR</div>
+    <div class="month-divider"></div>
+    <div class="item"><span class="check">✔</span><span class="item-text">Nueva bio – tu perfil debe hablar de ti y de lo que resuelves</span></div>
+    <div class="item"><span class="check">✔</span><span class="item-text">Establece tu público objetivo y sus principales carencias</span></div>
+    <div class="item"><span class="check">✔</span><span class="item-text">Elabora listado de ideas de contenido</span></div>
+    <div class="item"><span class="check">✔</span><span class="item-text">Crea o mejora el branding de tu marca personal</span></div>
+  </div>
+
+  <!-- MES 2 -->
+  <div class="month">
+    <div class="month-title">MES 2 – CREAR AUTORIDAD</div>
+    <div class="month-divider"></div>
+    <div class="item"><span class="check">✔</span><span class="item-text">Empieza a publicar en redes: 3 posts a la semana y 1 story diario</span></div>
+    <div class="item">
+      <span class="check">✔</span>
+      <span class="item-text">Tus posts deben:
+        <ul class="sub-list">
+          <li>Educar</li>
+          <li>Romper mitos</li>
+          <li>Generar confianza</li>
+        </ul>
+      </span>
+    </div>
+    <div class="item"><span class="check">✔</span><span class="item-text">Responder dudas – interactuar</span></div>
+  </div>
+
+  <!-- MES 3 al 5 -->
+  <div class="month">
+    <div class="month-title">MES 3 al MES 5 – CONVERTIR</div>
+    <div class="month-divider"></div>
+    <div class="item"><span class="check">✔</span><span class="item-text">Sigue publicando con la misma frecuencia</span></div>
+    <div class="item"><span class="check">✔</span><span class="item-text">Evalúa la conexión de tu público</span></div>
+    <div class="item">
+      <span class="check">✔</span>
+      <span class="item-text">Evalúa el comportamiento de tu cuenta:
+        <ul class="sub-list">
+          <li>Nuevos seguidores</li>
+          <li>Interacciones en la cuenta</li>
+        </ul>
+      </span>
+    </div>
+  </div>
+
+  <!-- MES 6 -->
+  <div class="month">
+    <div class="month-title">MES 6 EN ADELANTE</div>
+    <div class="month-divider"></div>
+    <p style="font-size:14px; color:var(--text); line-height:1.85; margin-bottom:16px;">A partir de este mes, puedes comenzar a ofrecer productos o servicios gratuitos para conectar aún más y generar confianza.</p>
+    <div class="nota-box">
+      <p>Nota: para monetizar (vender productos o servicios) asegúrate de haber creado una comunidad que conecte e interactúe contigo.</p>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
